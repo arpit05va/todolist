@@ -13,7 +13,7 @@ const _ = require("lodash");
 
   
 
-mongoose.connect("mongodb+srv://admin-arpit:KTkZZLmLDi0mbsTU@cluster0.6rlog.mongodb.net/todolistDB", { useNewUrlParser: true },{useUnifiedTopology:true});
+mongoose.connect("mongodb://localhost:27017/todolistDB");
 
  const itemSchema = {
      name: String
